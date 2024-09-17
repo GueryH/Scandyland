@@ -1,0 +1,15 @@
+FTP	medusa -h <target> -u <username> -P <password_list> -M ftp
+SSH	medusa -h <target> -u <username> -P <password_list> -M ssh
+Telnet	medusa -h <target> -u <username> -P <password_list> -M telnet
+SMB	medusa -h <target> -u <username> -P <password_list> -M smb
+SMTP	medusa -h <target> -u <username> -P <password_list> -M smtp
+IMAP	medusa -h <target> -u <username> -P <password_list> -M imap
+POP3	medusa -h <target> -u <username> -P <password_list> -M pop3
+RDP	medusa -h <target> -u <username> -P <password_list> -M rdp
+MySQL	medusa -h <target> -u <username> -P <password_list> -M mysql
+PostgreSQL	medusa -h <target> -u <username> -P <password_list> -M postgres
+VNC	medusa -h <target> -P <password_list> -M vnc
+LDAP	medusa -h <target> -u <username> -P <password_list> -M ldap
+SIP	medusa -h <target> -u <username> -P <password_list> -M sip
+Redis	medusa -h <target> -u <username> -P <password_list> -M redis
+Rlogin	medusa -h <target> -u <username> -P <password_list> -M rlogin

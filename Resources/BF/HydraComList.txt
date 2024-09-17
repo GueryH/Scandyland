@@ -1,0 +1,4 @@
+FTP	hydra -q -f -L $NamesFile -P $PassFile -o "HydraRes.txt" ftp://$Address
+SSH	hydra -q -f -L $NamesFile -P $PassFile -o "HydraRes.txt" ssh://$Address
+Telnet	hydra -q -f -L $NamesFile -P $PassFile -o "HydraRes.txt" telnet://$Address
+RDP	hydra -q -f -L $NamesFile -P $PassFile -o "HydraRes.txt" rdp://$Address

