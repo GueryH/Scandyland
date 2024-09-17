@@ -1,5 +1,5 @@
 #!bin/bash
-Scandinavia="
+Scandyland="
  Welcome to:
  +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+
  |S| |C| |A| |N| |D| |Y| |L| |A| |N| |D|
@@ -580,7 +580,7 @@ function MakeResultsFolder() {
 function Init() {
     
     # Display a header message
-    echo -e "${RED}$Scandinavia${NC}"
+    echo -e "${RED}$Scandyland${NC}"
     
     # Check if the script is being run as the root user
     if [ "$User" = "root" ]; then
